@@ -1,0 +1,14 @@
+Selective Amnesia
+
+Both players, Larry and Robin, can remember only a maximum of five numbers from a random
+sequence containing the numbers 1 to 10 inclusive.
+
+When a number is in their memory, that person gets a point
+
+If not, each has a strategy:
+
+Larry forgets the number said farthest in the past.
+
+Robin forgets the number that has been in memory for the most turns.
+
+Determine the expected difference of score between both players after 50 turns.
