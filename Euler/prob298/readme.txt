@@ -1,4 +1,4 @@
-This should be a straight forward program for Java.
+This was a straight forward program for Java.
 
 Psuedocode for main:
 
@@ -29,6 +29,7 @@ Begin
   
   Expected_val = score_diff/(50*number_of_trails)
   Return Expected_val
-  
-  From here, all that needs to be implemented is the person abstract class with
-  an array of memory, methods for "knows" and "Amnesia".
+ 
+Varaibles in the Person class held the variables memory, which was a 2d array holding the numbers in memory and the turn that they were either introduced or the last time they were called. This makes the 'knows' function the main difference between the classes since it update the number of turns associated each number in memory. Amnesia finds the number that has the lowest turn number and replaces it.
+
+Was a bit slow at 1,000,000,000 trails (37 minutes). Trials should be parallized for better performance because these trial can be done concurrently. 
